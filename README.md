@@ -1,7 +1,6 @@
 This project includes Fortinet Oracle Terraform templates to get you started.
 
-[https://github.com/hkebbi/fortinet-oci-solutions](FortiGate)
-.FortiGate
+**FortiGate**: [https://github.com/hkebbi/fortinet-oci-solutions/tree/master/FortiGate]
 
 **Support**
 Provided scripts in this and other GitHub projects do not fall under the regular Fortinet technical support scope and are not supported by FortiCare Support Services. For direct issues, please refer to the Issues tab of this GitHub project.
