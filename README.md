@@ -1,5 +1,6 @@
 This project includes Fortinet Oracle Terraform templates to get you started.
 
+[https://github.com/hkebbi/fortinet-oci-solutions](FortiGate)
 .FortiGate
 
 **Support**
