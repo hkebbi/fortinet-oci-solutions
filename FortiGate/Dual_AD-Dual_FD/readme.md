@@ -17,9 +17,9 @@ This also requires an additional OCI configuration for the OCI Fabric connector 
 
 **Port-4**: HeartBeat (HB).Between FG A/P.
 
-<img width="965" alt="Screen Shot 2021-10-05 at 12 20 17 PM" src="https://user-images.githubusercontent.com/64405031/135986810-68a958e5-6817-4c79-93f2-6566d34dc5a0.png">
-
 <img width="964" alt="Screen Shot 2021-10-05 at 12 20 08 PM" src="https://user-images.githubusercontent.com/64405031/135986825-522a699c-2eec-4fe7-8f20-24f48c5a5ccd.png">
+
+<img width="965" alt="Screen Shot 2021-10-05 at 12 20 17 PM" src="https://user-images.githubusercontent.com/64405031/135986810-68a958e5-6817-4c79-93f2-6566d34dc5a0.png">
 
 ## How to deploy
 
