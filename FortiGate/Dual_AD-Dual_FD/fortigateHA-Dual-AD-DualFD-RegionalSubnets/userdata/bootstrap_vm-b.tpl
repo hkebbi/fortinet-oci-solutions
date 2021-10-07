@@ -9,12 +9,6 @@ config system global
     set hostname "FortiGate-B"
     set admintimeout 60
 end
-config system admin
-    edit "admin"
-        set password "fortinet"
-    next
-end
-
 config system interface
     edit port1
         set ip ${mgmt_ip} ${mgmt_ip_mask}
