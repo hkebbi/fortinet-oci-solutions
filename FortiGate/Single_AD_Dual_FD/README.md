@@ -29,6 +29,7 @@ This also requires an additional OCI configuration for the OCI Fabric connector 
 4. Upload the .zip file in OCI Stack.
 5. Fill all required variable fields (except user_ocid, Fingerprint & Private_key_path) as per your network requirements.  
 6. Apply the Terraform State. 
+7. Default FG login credentials: admin/Instance-OCID.
 
 **_Note: This will deploy FortiGate-HA by default in "me-jeddah" Region & FG-v.7.0.1.**
 However, you can replace the region name in the: "Region" and the "VM_IMAGE_OCID" variable fields with required region name (During Step .5 above):
