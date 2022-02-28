@@ -7,10 +7,14 @@ Example"  "uk-london-1" / "eu-frankfurt-1" / "me-jeddah-1" / "eu-amsterdam-1"
 
 ## FG A.P v.7.0.5:
 
-* This is used for existing VCN and existing IGW.
-* Copy/paste VCN-OCID "Vcn_id" during terraform deployment on the OCI Stack.
-* This will create 4 new: 4 subnets, Two new RTs (Hb & Trust), new NSG and FG A/P inside existing VCN.
-* Create after deployment Two RTs ( unTrust and Managment) that points to existing IGW (0.0.0.0/0 --> IGW) on OCI RT.
+This is used for existing VCN and existing IGW.
+<br /> 
+Copy/paste VCN-OCID "Vcn_id" during terraform deployment on the OCI Stack.
+<br /> 
+This will create 4 new: 4 subnets, Two new RTs (Hb & Trust), new NSG and FG A/P inside existing VCN.
+<br /> 
+Create after deployment Two RTs ( unTrust and Managment) that points to existing IGW (0.0.0.0/0 --> IGW) on OCI RT.
+<br /> 
 
 * Port-1 /28 : mgmt (out-of-band management). For API-Call and SDN Connectors.  
 
