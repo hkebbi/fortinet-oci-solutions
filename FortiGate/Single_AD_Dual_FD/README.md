@@ -9,13 +9,13 @@ The Template deploys FortiGate A/P Regional Subnet, Single Availability domains 
 This also requires an additional OCI configuration for the OCI Fabric connector using IAM roles.
 **_Note: Region, Subnet & FG version can be modified_**.
 
-**Port-1**: mgmt (out-of-band management). For API-Call and SDN Connectors.
+**Port-1 /28**: mgmt (out-of-band management). For API-Call and SDN Connectors.
 
-**Port-2**: WAN (untrust). Towards IGW.
+**Port-2 /24**: WAN (untrust). Towards IGW.
 
-**Port-3**: LAN (Trust). Towards VCN and LPG.
+**Port-3/28**: LAN (Trust). Towards VCN and LPG.
 
-**Port-4**: HeartBeat (HB).Between FG A/P.
+**Port-4 /28**: HeartBeat (HB).Between FG A/P.
 
 <img width="964" alt="Screen Shot 2021-10-05 at 11 16 04 AM" src="https://user-images.githubusercontent.com/64405031/135977322-443625dc-d516-4a06-a431-6cc7ab66948e.png">
 
@@ -44,12 +44,6 @@ Example"  "uk-london-1" / "eu-frankfurt-1" / "me-jeddah-1" / "eu-amsterdam-1"
 2. Copy/paste VCN-OCID **"Vcn_id"** during terraform deployment on the OCI Stack.
 3. This will create 4 new: 4 subnets, Two new RTs (Hb & Trust), new NSG and FG A/P inside existing VCN.
 4. Create after deployment Two RTs ( unTrust and Managment) that points to existing IGW (0.0.0.0/0 --> IGW) on OCI RT.
-
-## For existing VCN (with IGW) Folder (VCN already exist, IGW will be created in the script):
-1. This is used for existing VCN Only.
-2. Copy/paste VCN-OCID **"Vcn_id"** during terraform deployment on the OCI Stack.
-3. This will create new: 4 subnets, 4 RTs , IGW, NSG and FG A/P inside existing VCN.
-
 
 ## Additional Configuration:
 For the Failover to work automatically: Additional configuration is required to use the IAM role provided by and configurable in the OCI environment for authentication. The IAM role includes permissions that you can give to the instance, so that FortiOS can implicitly access metadata information and communicate to the Fabric connector on its own private internal network without further authentication.
