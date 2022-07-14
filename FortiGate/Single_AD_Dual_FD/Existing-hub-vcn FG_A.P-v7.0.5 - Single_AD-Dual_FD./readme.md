@@ -1,11 +1,11 @@
 
 
-*_Note: This will deploy FortiGate-HA by default in "me-jeddah" Region & FG-v.7.0.5..**
+*_Note: This will deploy FortiGate-HA by default in "me-jeddah" Region & FG-v.7.2.0..**
 
 However, you can replace the region name in the: "Region" and the "VM_IMAGE_OCID" variable fields with required region name (During Step .5 above):
 Example"  "uk-london-1" / "eu-frankfurt-1" / "me-jeddah-1" / "eu-amsterdam-1"
 
-## FG A.P v.7.0.5:
+## FG A.P v.7.2.0:
 
 This is used for existing VCN and existing IGW.
 <br /> 
