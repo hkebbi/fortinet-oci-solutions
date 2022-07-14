@@ -97,7 +97,7 @@ variable "hb_private_ip_primary_b" {
 }
 
 variable "vm_image_ocid" { 
-  default =  "ocid1.image.oc1..aaaaaaaabu6hszx2yexxqddvekarvsmpdltvp6sqqmrmlgqilpxuxjtqvyla"
+  default =  "ocid1.image.oc1..aaaaaaaapxqi6j4dq2tl3yz4h7tqz7oqaqzcvr5renzczzeiptvk3slhcmba"
    //me-jeddah-1 = "ocid1.image.oc1..aaaaaaaah4zz3nx2k2fyzzo7hzgq7knhn7i2wpatqymnpt3pgdcqzieeg2ca"
 }
 
