@@ -162,7 +162,7 @@ variable "vm_image_ocid" {
   type = map
 
   default = {
-     me-jeddah-1 = "ocid1.image.oc1..aaaaaaaasqn4zerim4l4mmmilnmcj5npl7mam7abpzekiwsyoc5b7plevula"   
+     me-jeddah-1 = "ocid1.image.oc1..aaaaaaaapxqi6j4dq2tl3yz4h7tqz7oqaqzcvr5renzczzeiptvk3slhcmba"   
     //me-jeddah-1 = "ocid1.image.oc1..aaaaaaaayocemm3gyko7pav3fb3qh75ns7iadn5fje2mq7yvlhc4qd2erukq"
   }
 }
